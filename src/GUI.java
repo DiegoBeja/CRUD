@@ -8,7 +8,7 @@ import java.awt.event.ActionListener;
 import java.sql.*;
 import java.util.Arrays;
 
-public class Baja extends JFrame {
+public class GUI extends JFrame {
     private JPanel panelPrincipal;
     private JPanel panelUsuarios;
     private JPanel panelOpciones;
@@ -23,7 +23,7 @@ public class Baja extends JFrame {
     private static final String PASSWORD = "superpassword";
     private DefaultTableModel modeloTabla;
 
-    public Baja() {
+    public GUI() {
         panelPrincipal = new JPanel(new BorderLayout());
         panelOpciones = new JPanel(new GridBagLayout());
         panelUsuarios = new JPanel();
